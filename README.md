@@ -5,15 +5,19 @@
 git clone https://github.com/elizabethgutierrez27/angularReview-GDS0553.git
 ```
 
-## Instalar las dependencias del proyecto
-- Ejecute en la carpeta del proyecto el siguiente comando
+## Instalar los modulos del proyecto
+- Cambiarse al directorio
+```
+cd ego-login-gds0553
+```
+- Mediante el npm instalar los módulos
 ```
 npm install
 ```
 
 ## Levantar Json-Server
-- Para que los datos ingresados y que el FrondEnd funcione ejecutar el siguiente comando:
-````
+- El FrontEnd lo decodifica y verifica que sea valido:
+```
 json-server --watch db.json
 ```
 
